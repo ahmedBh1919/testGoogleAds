@@ -1,10 +1,12 @@
 <script>
-  let count = 0
+  let notcount = 0
   const increment = () => {
-    count += 1
+    notcount += 1
   }
+  console.log("yeeyy")
 </script>
 
 <button on:click={increment}>
-  count is {count}
+  count is {notcount}
 </button>
+
